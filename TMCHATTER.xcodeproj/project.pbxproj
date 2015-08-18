@@ -15,6 +15,8 @@
 		7AD6733E1B831B6100071A29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD6733D1B831B6100071A29 /* Images.xcassets */; };
 		7AD673411B831B6100071A29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD6733F1B831B6100071A29 /* LaunchScreen.xib */; };
 		7AD6734D1B831B6100071A29 /* TMCHATTERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6734C1B831B6100071A29 /* TMCHATTERTests.m */; };
+		7AD6735A1B831CE700071A29 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD673581B831CE700071A29 /* MainViewController.m */; };
+		7AD6735B1B831CE700071A29 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD673591B831CE700071A29 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		7AD673461B831B6100071A29 /* TMCHATTERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMCHATTERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD6734B1B831B6100071A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AD6734C1B831B6100071A29 /* TMCHATTERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCHATTERTests.m; sourceTree = "<group>"; };
+		7AD673571B831CE700071A29 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7AD673581B831CE700071A29 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7AD673591B831CE700071A29 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		7AD6732C1B831B6100071A29 /* TMCHATTER */ = {
 			isa = PBXGroup;
 			children = (
+				7AD673561B831C4B00071A29 /* ControllerView */,
 				7AD673311B831B6100071A29 /* AppDelegate.h */,
 				7AD673321B831B6100071A29 /* AppDelegate.m */,
 				7AD673371B831B6100071A29 /* ViewController.h */,
@@ -120,6 +126,16 @@
 				7AD6734B1B831B6100071A29 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AD673561B831C4B00071A29 /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				7AD673571B831CE700071A29 /* MainViewController.h */,
+				7AD673581B831CE700071A29 /* MainViewController.m */,
+				7AD673591B831CE700071A29 /* MainViewController.xib */,
+			);
+			name = ControllerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +221,7 @@
 				7AD6733C1B831B6100071A29 /* Main.storyboard in Resources */,
 				7AD673411B831B6100071A29 /* LaunchScreen.xib in Resources */,
 				7AD6733E1B831B6100071A29 /* Images.xcassets in Resources */,
+				7AD6735B1B831CE700071A29 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +242,7 @@
 				7AD673331B831B6100071A29 /* AppDelegate.m in Sources */,
 				7AD673301B831B6100071A29 /* main.m in Sources */,
 				7AD673391B831B6100071A29 /* ViewController.m in Sources */,
+				7AD6735A1B831CE700071A29 /* MainViewController.m in Sources */,
 				7AD673361B831B6100071A29 /* TMCHATTER.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
